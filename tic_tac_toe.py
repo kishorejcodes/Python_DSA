@@ -91,9 +91,9 @@ while True:
         print("Tie")
         msg = "##      Tie      ##"
         print("#"*len(msg))
-        print("##" + " "*len(msg)-4 + "##")
+        print("##" + " "*(len(msg)-4) + "##")
         print(msg)
-        print("##" + " "*len(msg)-4 + "##")
+        print("##" + " "*(len(msg)-4) + "##")
         print("#"*len(msg))
         break
     i += 1
